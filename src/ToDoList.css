@@ -1,0 +1,28 @@
+.to-do-list {
+    position: fixed;
+    top: 0;
+    left: 330px;
+    right: 0;
+    width: auto;
+    height: auto; /* Add this line */
+    padding: 10px;
+    z-index: 1;
+    font-family: Comic Sans MS;
+    background-image: url('https://a.cdn-hotels.com/gdcs/production0/d534/9fcb49d7-ce02-4a86-9985-de3d8929d338.jpg');
+    width: auto;
+    height: 3000px;
+}
+
+.list-top-name {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.list li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 20px 15px;
+    background-color: rgba(219, 247, 247, 0.5);
+}

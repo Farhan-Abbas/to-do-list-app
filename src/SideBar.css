@@ -1,0 +1,52 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    padding: 4px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Comic Sans MS;
+    margin-bottom: 5px;
+    background-color: rgb(127, 231, 226);
+    height: 1500px;
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    left: 330px;
+    right: 0;
+    width: auto;
+    height: auto; 
+    z-index: 1;
+    background-image: url('https://a.cdn-hotels.com/gdcs/production0/d534/9fcb49d7-ce02-4a86-9985-de3d8929d338.jpg');
+    width: auto;
+    height: 3000px;
+}
+
+.list-button {
+    display: block;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    width: 150px; /* Set a fixed width */
+    height: 57px; /* Set a fixed height */
+    overflow: hidden; /* Hide overflowed content */
+    text-overflow: ellipsis; /* Display an ellipsis (...) when the text overflows */
+    white-space: nowrap; /* Prevent the text from wrapping onto multiple lines */
+    padding: 10px 20px;
+    font-family: 'Comic Sans MS';
+    transition: background-color 0.5s ease;
+}
+
+.list-button:hover {
+background-color: rgba(0, 0, 0, 0.1);
+border: 2px solid #000;
+}
+
+ol {
+    list-style-type: decimal; /* Use decimal for numbers */
+    margin-left: 20px; /* Add some left margin to make the numbers visible */
+}
