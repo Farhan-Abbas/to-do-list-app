@@ -37,7 +37,7 @@ export default function ToDoList({listName, items, setItems}){
             </div>
             
             <div>
-                <input type="text" value={inputValue} onChange={handleChange} style={{marginRight: '10px'}}></input>
+                <input type="text" value={inputValue} placeholder={'Enter a new task...'} onChange={handleChange} style={{marginRight: '10px', width: '140px', height: '25px'}}></input>
                 <button className='button' onClick={addItem}>Add Item</button>
             </div>
 

@@ -10,7 +10,7 @@
     align-items: center;
     font-family: Comic Sans MS;
     margin-bottom: 5px;
-    background-color: rgb(127, 231, 226);
+    background-image: url('https://i.pinimg.com/736x/fa/db/f4/fadbf4d9fac15217359d9dd0cd0a3095.jpg');
     height: 1500px;
 }
 
@@ -22,7 +22,7 @@
     width: auto;
     height: auto; 
     z-index: 1;
-    background-image: url('https://a.cdn-hotels.com/gdcs/production0/d534/9fcb49d7-ce02-4a86-9985-de3d8929d338.jpg');
+    background-image: url('https://i.pinimg.com/736x/be/dd/50/bedd501148358354b3f081c0a833916d--pattern-texture-pattern-print.jpg');
     width: auto;
     height: 3000px;
 }

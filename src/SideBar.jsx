@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './SideBar.css'; // Import the CSS file
 import ToDoList from './ToDoList';
 import './App.css';
@@ -29,7 +29,7 @@ const addList = () => {
 return (
     <div className='main'>
         <div className="sidebar">
-            <h1>Your Lists</h1>
+            <h1><u>My To-Dos</u></h1>
 
             <ol>
             {lists.map(list => (
@@ -43,7 +43,7 @@ return (
             </ol>
 
             <div>
-            <input type="text" value={newListName} onChange={handleChange} placeholder={'Grocery'} style={{marginRight: '10px'}} />
+            <input type="text" value={newListName} onChange={handleChange} placeholder={'Create New List'} style={{marginRight: '10px', width: '140px', height: '25px'}} />
             <button className='button' onClick={addList}>Add New List</button>
             </div>
 
