@@ -23,17 +23,17 @@ export default function ToDoList({listName, items, setItems}){
         <div className='to-do-list'>
             
             <div className='list-top-name'>
-                {listName}
+                <u>{listName}</u>
             </div>
 
             <div className='list'>
-                <ol>
+                <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', listStyle: 'none', padding: 0}}>
                     {items.map((item, index) => (
-                        <li key={index}>
+                        <div key={index} class="item-border">
                             <ToDoItem text={item} onDelete={() => deleteItem(index)} />
-                        </li>
+                        </div>
                     ))}
-                </ol>
+                </div>
             </div>
             
             <div>
@@ -44,3 +44,5 @@ export default function ToDoList({listName, items, setItems}){
         </div>
     )
 }
+
+

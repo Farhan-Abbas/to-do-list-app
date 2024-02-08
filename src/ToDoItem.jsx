@@ -1,8 +1,9 @@
 import './App.css';
 
+
 export default function ToDoItem({ text, onDelete }) {
     return (
-        <div style={{padding:'5px 0px', width:'180px', height: '200px'}}>
+        <div style={{padding:'5px 0px', width:'180px', height: '180px'}}>
             <div style={{padding:'17px 17px', fontSize:'21px', overflow: 'hidden', textOverflow: 'ellipsis', overflowWrap: 'break-word'}}>
                 {text}
             </div>

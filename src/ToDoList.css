@@ -18,7 +18,7 @@
     font-style: italic;
 }
 
-.list li {
+.item-border{
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 10px;
