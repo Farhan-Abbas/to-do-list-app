@@ -24,7 +24,9 @@ export default function ToDoList({listName, items, setItems}){
             
             <div className='list-top-name'>
                 <u>{listName}</u>
+                
             </div>
+            <br />
 
             <div className='list'>
                 <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', listStyle: 'none', padding: 0}}>
