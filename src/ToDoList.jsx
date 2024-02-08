@@ -31,7 +31,7 @@ export default function ToDoList({listName, items, setItems}){
             <div className='list'>
                 <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', listStyle: 'none', padding: 0}}>
                     {items.map((item, index) => (
-                        <div key={index} class="item-border">
+                        <div key={index} className="item-border">
                             <ToDoItem text={item} onDelete={() => deleteItem(index)} />
                         </div>
                     ))}
